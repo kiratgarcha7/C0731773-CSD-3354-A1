@@ -48,10 +48,11 @@ using System.IO;
         /* 
          * 
          */
-        static void Main()
+        public static void Main()
         {
             CountrySide a = new CountrySide();
             a.Run();
+            Console.ReadLine();
         }
 
         // Create the LinkedList to reflect the Map in the PowerPoint Instructions
@@ -138,7 +139,6 @@ using System.IO;
 
     class Village
     {
-        // http://www.vikinganswerlady.com/measurement.shtml
 
         public Village(string _villageName, bool _isAHere)
         {
