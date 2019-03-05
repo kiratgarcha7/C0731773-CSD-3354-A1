@@ -117,7 +117,7 @@ using System.IO;
             try
             {
 
-                using (StreamReader sr = new StreamReader("U:/Users/731909/731909/announcement.txt"))
+                using (StreamReader sr = new StreamReader("U:/Users/731773/file.txt"))
                 {
                     string line;
 
